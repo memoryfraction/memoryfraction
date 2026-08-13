@@ -1,6 +1,6 @@
 <div align="center">
   <h1>👋 Hi, I'm Rex Fan</h1>
-  <p><strong>🏥 US Healthcare IT Professional</strong> | 💹 Quant Developer | ⚡ Lightning Researcher</p>
+  <p><strong>🏥 US Healthcare IT /Interoperability Professional</strong> | 💹 Quant Developer | ⚡ Lightning Researcher</p>
 </div>
 
 ---
