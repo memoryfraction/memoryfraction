@@ -42,8 +42,8 @@
 ---
 
 ## 🎓 Academic Profiles
-- 🔗 **[Rex Fan - Google Scholar](https://scholar.google.com/citations?user=Zxn84ckAAAAJ&hl=en)**
-- 🔗 **[Rex Fan - Baidu Scholar](https://xueshu.baidu.com/scholarID/CN-BM75JUJJ)**
+- 🔗 **[Google Scholar](https://scholar.google.com/citations?user=Zxn84ckAAAAJ&hl=en)**
+- 🔗 **[Baidu Scholar](https://xueshu.baidu.com/scholarID/CN-BM75JUJJ)**
 
 ---
 
@@ -112,8 +112,8 @@ If you are working on healthcare IT, quant development, or lightning research an
 ---
 
 ## 🎓 学术主页
-- 🔗 **[Rex Fan - Google Scholar](https://scholar.google.com/citations?user=Zxn84ckAAAAJ&hl=en)**
-- 🔗 **[Rex Fan - Baidu Scholar (百度学术)](https://xueshu.baidu.com/scholarID/CN-BM75JUJJ)**
+- 🔗 **[Google Scholar](https://scholar.google.com/citations?user=Zxn84ckAAAAJ&hl=en)**
+- 🔗 **[Baidu Scholar (百度学术)](https://xueshu.baidu.com/scholarID/CN-BM75JUJJ)**
 
 ---
 
