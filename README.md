@@ -160,9 +160,8 @@ If you are working on lightning research, quant development, or healthcare IT pr
 <p><strong>Want early access to my open-source tools, research papers, and tech insights?<br>希望第一时间获取我的开源工具、论文和资讯？</strong></p>
 
 <!-- Mailchimp Button -->
-<a href="https://fanrong-us4.list-manage.com/subscribe?u=YOUR_GROUP_ID&id=YOUR_FORM_ID" class="btn-subscribe" target="_blank">📧 Join My Mailing List</a>
+  <a href="https://github.us5.list-manage.com/subscribe?u=b84c103f99360d3605739e59e&id=a93d0d33ce" class="btn-subscribe" target="_blank">📧 Join My Mailing List</a>
 
-<div style="margin-top:20px;">
-    <!-- Paste your Mailchimp <iframe> embed code below this line -->
+
 </div>
-</div>
+
