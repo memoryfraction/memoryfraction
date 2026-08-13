@@ -1,6 +1,7 @@
 <div align="center">
   <h1>👋 Hi, I'm Rex Fan</h1>
-  <p><strong>🏥 US Healthcare IT /Interoperability Professional</strong> | 💹 Quant Developer | ⚡ Lightning Researcher</p>
+  <p><strong>I help US healthcare teams ship FHIR-compliant, audit-ready interoperability — built on .NET.</strong></p>
+  <p>🏥 Healthcare IT / FHIR Interoperability &nbsp;·&nbsp; also building in 💹 Quant Dev &amp; ⚡ Lightning Science</p>
 </div>
 
 ---
@@ -56,12 +57,12 @@
 ---
 
 ## ☕ Collaboration
-If you are working on healthcare IT, quant development, or lightning research and believe a collaboration could be mutually beneficial — feel free to reach out via email or schedule a meeting.
+Working on FHIR / healthcare interoperability and think we could help each other? Reach out by email or book a meeting.
 
 <div align="center">
-  <h3>📩 Stay in the Loop / 订阅更新</h3>
-  <p><em>Want early access to my open-source tools, research papers, and tech insights?<br>希望第一时间获取我的开源工具、论文和资讯？</em></p>
-  <a href="https://mailchi.mp/83cafe450eef/rex-landing-page" target="_blank">📧 Join My Mailing List</a>
+  <h3>🎁 Free: The FHIR R4/R5 Compliance Checklist</h3>
+  <p><em>The 12 pitfalls teams hit on the road to 21st Century Cures Act certification — in one printable PDF.<br>Get the checklist, plus occasional deep-dives on healthcare interoperability. No spam, unsubscribe anytime.</em></p>
+  <a href="https://mailchi.mp/83cafe450eef/rex-landing-page" target="_blank"><strong>📧 Send me the free checklist →</strong></a>
 </div>
 
 ---
@@ -73,7 +74,9 @@ If you are working on healthcare IT, quant development, or lightning research an
 
 ### 👋 你好，我是 **Rex Fan**
 
-<strong>🏥 美国医疗 IT 专家</strong> | 💹 量化开发者 | ⚡ 雷电研究者
+<strong>我帮助美国医疗团队构建符合 FHIR 标准、可通过审计的互操作系统（基于 .NET）。</strong>
+
+🏥 医疗 IT / FHIR 互操作性 · 同时涉猎 💹 量化开发 与 ⚡ 雷电科学
 
 ---
 
@@ -126,11 +129,11 @@ If you are working on healthcare IT, quant development, or lightning research an
 ---
 
 ## ☕ 合作邀请
-如果您从事医疗 IT、量化开发或雷电研究，并认为我们可以进行互利的合作 —— 请随时通过邮件联系我或在相关仓库提交 Issue / PR。
+如果您从事 FHIR / 医疗互操作性相关工作，并认为我们可以互利合作 —— 欢迎邮件联系或预约会议。
 
 <div align="center">
-  <h3>📩 Stay in the Loop / 订阅更新</h3>
-  <p><em>Want early access to my open-source tools, research papers, and tech insights?<br>希望第一时间获取我的开源工具、论文和资讯？</em></p>
-  <a href="https://mailchi.mp/83cafe450eef/rex-landing-page" target="_blank">📧 Join My Mailing List</a>
+  <h3>🎁 免费领取：《FHIR R4/R5 合规实施 Checklist》</h3>
+  <p><em>通往《21世纪治愈法案》认证路上最常见的 12 个坑 —— 整理成一份可打印的 PDF。<br>领取清单，并不定期收到医疗互操作性的深度文章。无垃圾邮件，随时退订。</em></p>
+  <a href="https://mailchi.mp/83cafe450eef/rex-landing-page" target="_blank"><strong>📧 把免费清单发给我 →</strong></a>
 </div>
 
