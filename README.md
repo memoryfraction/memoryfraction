@@ -3,7 +3,11 @@
   <p><strong>I help US healthcare teams ship FHIR-compliant, audit-ready interoperability — built on .NET.</strong></p>
   <p>🏥 Healthcare IT / FHIR Interoperability &nbsp;·&nbsp; also building in 💹 Quant Dev &amp; ⚡ Lightning Science</p>
 </div>
-
+<div align="center">
+  <a href="https://counter.dev">
+    <img src="https://api.counter.dev/api/memoryfraction?theme=react-native&tick=label&label=Profile+Visits" alt="Profile Visits" style="height: 20px;" />
+  </a>
+</div>
 ---
 
 ## 🔬 Domains of Expertise
@@ -64,12 +68,10 @@ Working on FHIR / healthcare interoperability and think we could help each other
   <p><em>The 12 pitfalls teams hit on the road to 21st Century Cures Act certification — in one printable PDF.<br>Get the checklist, plus occasional deep-dives on healthcare interoperability. No spam, unsubscribe anytime.</em></p>
   <a href="https://mailchi.mp/83cafe450eef/rex-landing-page" target="_blank"><strong>📧 Send me the free checklist →</strong></a>
 </div>
-
 ---
 <div align="center">
   <h2>🇨🇳 中文版 / Chinese Version</h2>
 </div>
-
 ---
 
 ### 👋 你好，我是 **Rex Fan**
