@@ -61,7 +61,7 @@ If you are working on healthcare IT, quant development, or lightning research an
 <div align="center">
   <h3>📩 Stay in the Loop / 订阅更新</h3>
   <p><em>Want early access to my open-source tools, research papers, and tech insights?<br>希望第一时间获取我的开源工具、论文和资讯？</em></p>
-  <a href="https://github.us5.list-manage.com/subscribe?u=b84c103f99360d3605739e59e&id=a93d0d33ce" target="_blank">📧 Join My Mailing List</a>
+  <a href="https://mailchi.mp/83cafe450eef/rex-landing-page" target="_blank">📧 Join My Mailing List</a>
 </div>
 
 ---
@@ -131,6 +131,6 @@ If you are working on healthcare IT, quant development, or lightning research an
 <div align="center">
   <h3>📩 Stay in the Loop / 订阅更新</h3>
   <p><em>Want early access to my open-source tools, research papers, and tech insights?<br>希望第一时间获取我的开源工具、论文和资讯？</em></p>
-  <a href="https://github.us5.list-manage.com/subscribe?u=b84c103f99360d3605739e59e&id=a93d0d33ce" target="_blank">📧 Join My Mailing List</a>
+  <a href="https://mailchi.mp/83cafe450eef/rex-landing-page" target="_blank">📧 Join My Mailing List</a>
 </div>
 
