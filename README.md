@@ -7,9 +7,9 @@
 
 ## 🔬 Domains of Expertise
 
-### 1️⃣ 🏥 US Healthcare IT & Interoperability
+### 1️⃣ 🏥 US Healthcare IT & Interoperability Professional
 **Research focus:** FHIR R4/R5 compliance, clinical data pipelines, semantic validation with AI.
-- Developed [HealthData-Interoperability-Csharp](https://memoryfraction.github.io/HealthData-Interoperability-Csharp/) — a production-ready Healthcare Interoperability Engine built on .NET 10 for the 21st Century Cures Act mandate.
+- Developed [HealthData-Interoperability-Csharp](https://memoryfraction.github.io/HealthData-Interoperability-Csharp/) — a Healthcare Interoperability Engine built on .NET 10 for the 21st Century Cures Act mandate.
 
 ### 2️⃣ 💹 Quantitative Trading & FinTech
 **Research focus:** Multi-source data ingestion, execution systems, real-time analytics.
