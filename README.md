@@ -4,9 +4,7 @@
   <p>🏥 Healthcare IT / FHIR Interoperability &nbsp;·&nbsp; also building in 💹 Quant Dev &amp; ⚡ Lightning Science</p>
 </div>
 <div align="center">
-  <a href="https://counter.dev">
-    <img src="https://api.counter.dev/api/memoryfraction?theme=react-native&tick=label&label=Profile+Visits" alt="Profile Visits" style="height: 20px;" />
-  </a>
+  <img src="https://api.visitorbadge.io/api/visitors?path=memoryfraction&label=Profile%20Visits&countColor=%23263759" alt="Profile Visits Badge" />
 </div>
 ---
 
