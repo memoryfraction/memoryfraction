@@ -1,7 +1,7 @@
 <div align="center">
   <h1>👋 Hi, I'm Rex Fan</h1>
   <p><strong>I help US healthcare teams ship FHIR-compliant, audit-ready interoperability — built on .NET.</strong></p>
-  <p>🏥 Healthcare IT / FHIR Interoperability &nbsp;·&nbsp; also building in 💹 Quant Dev &amp; ⚡ Lightning Science</p>
+  <p>🏥 AI Powered Healthcare IT / FHIR Interoperability &nbsp;·&nbsp; also building in 💹 Quant Dev &amp; ⚡ Lightning Science</p>
 </div>
 <div align="center">
   <img src="https://api.visitorbadge.io/api/visitors?path=memoryfraction&label=Profile%20Visits&countColor=%23263759" alt="Profile Visits Badge" />
@@ -10,7 +10,7 @@
 
 ## 🔬 Domains of Expertise
 
-### 1️⃣ 🏥 US Healthcare IT & Interoperability Professional
+### 1️⃣ 🏥 AI Powered US Healthcare IT & Interoperability Professional
 **Research focus:** FHIR R4/R5 compliance, clinical data pipelines, semantic validation with AI.
 - Developed [HealthData-Interoperability-Csharp](https://memoryfraction.github.io/HealthData-Interoperability-Csharp/) — a Healthcare Interoperability Engine built on .NET 10 for the 21st Century Cures Act mandate.
 
