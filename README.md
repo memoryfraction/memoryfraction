@@ -39,7 +39,7 @@ Live demos of the healthcare interoperability stack:
 | Sample | Description |
 |--------|-------------|
 | [**Clinic FHIR Server**](https://clinic-fhir-server-app.blackdesert-8e20099d.eastasia.azurecontainerapps.io/) | Production-style multi-tenant clinic FHIR R4 server (Blazor Server + HL7.Fhir) with physician & tenant-admin dashboards |
-| [**(XBridge**](https://fhir-converter.greengrass-8e23c1df.westus.azurecontainerapps.io/) | Local-first X12 ↔ FHIR R4 conversion toolkit — 837P/835/270/271/278/276/277/820 (HIPAA 5010), Companion Guide validation, CSV/Excel→FHIR, PHI masking, WEDI-SNIP checks |
+| [**XBridge**](https://fhir-converter.greengrass-8e23c1df.westus.azurecontainerapps.io/) | Local-first X12 ↔ FHIR R4 conversion toolkit — 837P/835/270/271/278/276/277/820 (HIPAA 5010), Companion Guide validation, CSV/Excel→FHIR, PHI masking, WEDI-SNIP checks |
 
 ---
 
