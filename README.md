@@ -32,6 +32,15 @@
 | [**Quant.Infra.Net**](https://memoryfraction.github.io/Quant.Infra.Net/) | Quantitative trading infrastructure in .NET | MIT |
 | [**LLSDA**](https://memoryfraction.github.io/LLSDA-Lightning-Location-System-Data-Analyzer/) ⭐7 | Open-source lightning location data analysis library (.NET, cross-platform) | GPLv3 |
 
+## 🧪 Sample Projects
+
+Live demos of the healthcare interoperability stack:
+
+| Sample | Description |
+|--------|-------------|
+| [**Clinic FHIR Server**](https://clinic-fhir-server-app.blackdesert-8e20099d.eastasia.azurecontainerapps.io/) | Production-style multi-tenant clinic FHIR R4 server (Blazor Server + HL7.Fhir) with physician & tenant-admin dashboards |
+| [**FHIR Converter (XBridge)**](https://fhir-converter.greengrass-8e23c1df.westus.azurecontainerapps.io/) | Local-first X12 ↔ FHIR R4 conversion toolkit — 837P/835/270/271/278/276/277/820 (HIPAA 5010), Companion Guide validation, CSV/Excel→FHIR, PHI masking, WEDI-SNIP checks |
+
 ---
 
 ## 📦 NuGet Packages
@@ -102,6 +111,13 @@ Working on FHIR / healthcare interoperability and think we could help each other
 | [**HealthData-Interoperability-Csharp**](https://memoryfraction.github.io/HealthData-Interoperability-Csharp/) | AI驱动的 FHIR R4/R5 互操作性引擎 (.NET 10, 医疗IT) | MIT |
 | [**Quant.Infra.Net**](https://memoryfraction.github.io/Quant.Infra.Net/) | .NET 量化交易基础设施 | MIT |
 | [**LLSDA**](https://memoryfraction.github.io/LLSDA-Lightning-Location-System-Data-Analyzer/) ⭐7 | 开源闪电定位数据分析库 (.NET, 跨平台) | GPLv3 |
+
+## 🧪 Sample 项目（在线示例）
+
+| 示例 | 说明 |
+|------|------|
+| [**Clinic FHIR Server**](https://clinic-fhir-server-app.blackdesert-8e20099d.eastasia.azurecontainerapps.io/) | 生产级多租户诊所 FHIR R4 服务器（Blazor Server + HL7.Fhir），医生 / 租户管理员仪表盘 |
+| [**XBridge**](https://fhir-converter.greengrass-8e23c1df.westus.azurecontainerapps.io/) | 本地优先 X12 ↔ FHIR R4 转换工具 —— 837P/835/270/271/278/276/277/820（HIPAA 5010）、Companion Guide 校验、CSV/Excel→FHIR、PHI 脱敏、WEDI-SNIP 检查 |
 
 ---
 
