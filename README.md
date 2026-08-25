@@ -1,7 +1,3 @@
-<style>
-.btn-subscribe { display: inline-block; padding: 10px 22px; background-color: #2da44e; color: #ffffff; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 15px; margin-top: 10px; }
-.btn-subscribe:hover { opacity: 0.9; color: #ffffff; }
-</style>
 <div align="center">
   <h1>👋 Hi, I'm Rex Fan</h1>
   <p><strong>I help US healthcare teams ship FHIR-compliant, audit-ready interoperability — built on .NET.</strong></p>
