@@ -30,11 +30,11 @@
 
 ## 🚀 Key Projects
 
-| Project | Description | License |
-|---------|-------------|---------|
-| [**HealthData-Interoperability-Csharp**](https://memoryfraction.github.io/HealthData-Interoperability-Csharp/) | AI-driven FHIR R4/R5 interoperability engine (.NET 10, Healthcare IT) | MIT |
-| [**Quant.Infra.Net**](https://memoryfraction.github.io/Quant.Infra.Net/) | Quantitative trading infrastructure in .NET | MIT |
-| [**LLSDA**](https://memoryfraction.github.io/LLSDA-Lightning-Location-System-Data-Analyzer/) ⭐7 | Open-source lightning location data analysis library (.NET, cross-platform) | GPLv3 |
+| Project | Description | License | Docs |
+|---------|-------------|---------|------|
+| [**HealthData-Interoperability-Csharp**](https://github.com/memoryfraction/HealthData-Interoperability-Csharp) | AI-driven FHIR R4/R5 interoperability engine (.NET 10, Healthcare IT) | MIT | [Pages](https://memoryfraction.github.io/HealthData-Interoperability-Csharp/) |
+| [**Quant.Infra.Net**](https://github.com/memoryfraction/Quant.Infra.Net) | Quantitative trading infrastructure in .NET | MIT | [Pages](https://memoryfraction.github.io/Quant.Infra.Net/) |
+| [**LLSDA**](https://github.com/memoryfraction/LLSDA-Lightning-Location-System-Data-Analyzer) [![GitHub stars](https://img.shields.io/github/stars/memoryfraction/LLSDA-Lightning-Location-System-Data-Analyzer)](https://github.com/memoryfraction/LLSDA-Lightning-Location-System-Data-Analyzer/stargazers) | Open-source lightning location data analysis library (.NET, cross-platform) — published on NuGet, cited in a TechRxiv preprint | GPLv3 | [Pages](https://memoryfraction.github.io/LLSDA-Lightning-Location-System-Data-Analyzer/) |
 
 ## 🧪 Sample Projects
 
@@ -66,6 +66,7 @@ Live demos of the healthcare interoperability stack:
 ## 🎓 Academic Profiles
 - 🔗 **[Google Scholar](https://scholar.google.com/citations?user=Zxn84ckAAAAJ&hl=en)**
 - 🔗 **[Baidu Scholar](https://xueshu.baidu.com/scholarID/CN-BM75JUJJ)**
+- 📄 **Publication:** Fan, R.; Li, J.; Liu, M. (2023). *LLSDA: Design and implementation of lightning location data analysis, and visualization*. [TechRxiv Preprint](https://doi.org/10.36227/techrxiv.23615019.v1)
 
 ---
 
@@ -116,11 +117,11 @@ Working on FHIR / healthcare interoperability and think we could help each other
 ---
 
 ## 🚀 核心项目
-| 项目 | 简介 | 许可证 |
-|---------|-------------|---------|
-| [**HealthData-Interoperability-Csharp**](https://memoryfraction.github.io/HealthData-Interoperability-Csharp/) | AI驱动的 FHIR R4/R5 互操作性引擎 (.NET 10, 医疗IT) | MIT |
-| [**Quant.Infra.Net**](https://memoryfraction.github.io/Quant.Infra.Net/) | .NET 量化交易基础设施 | MIT |
-| [**LLSDA**](https://memoryfraction.github.io/LLSDA-Lightning-Location-System-Data-Analyzer/) ⭐7 | 开源闪电定位数据分析库 (.NET, 跨平台) | GPLv3 |
+| 项目 | 简介 | 许可证 | 文档 |
+|---------|-------------|---------|------|
+| [**HealthData-Interoperability-Csharp**](https://github.com/memoryfraction/HealthData-Interoperability-Csharp) | AI驱动的 FHIR R4/R5 互操作性引擎 (.NET 10, 医疗IT) | MIT | [Pages](https://memoryfraction.github.io/HealthData-Interoperability-Csharp/) |
+| [**Quant.Infra.Net**](https://github.com/memoryfraction/Quant.Infra.Net) | .NET 量化交易基础设施 | MIT | [Pages](https://memoryfraction.github.io/Quant.Infra.Net/) |
+| [**LLSDA**](https://github.com/memoryfraction/LLSDA-Lightning-Location-System-Data-Analyzer) [![GitHub stars](https://img.shields.io/github/stars/memoryfraction/LLSDA-Lightning-Location-System-Data-Analyzer)](https://github.com/memoryfraction/LLSDA-Lightning-Location-System-Data-Analyzer/stargazers) | 开源闪电定位数据分析库 (.NET, 跨平台) —— 已发布 NuGet，被 TechRxiv 预印本引用 | GPLv3 | [Pages](https://memoryfraction.github.io/LLSDA-Lightning-Location-System-Data-Analyzer/) |
 
 ## 🧪 Sample 项目（在线示例）
 
@@ -149,6 +150,7 @@ Working on FHIR / healthcare interoperability and think we could help each other
 ## 🎓 学术主页
 - 🔗 **[Google Scholar](https://scholar.google.com/citations?user=Zxn84ckAAAAJ&hl=en)**
 - 🔗 **[Baidu Scholar (百度学术)](https://xueshu.baidu.com/scholarID/CN-BM75JUJJ)**
+- 📄 **学术发表：** Fan, R.; Li, J.; Liu, M. (2023). *LLSDA: Design and implementation of lightning location data analysis, and visualization*. [TechRxiv 预印本](https://doi.org/10.36227/techrxiv.23615019.v1)
 
 ---
 
