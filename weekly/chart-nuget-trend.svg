@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="320" viewBox="0 0 880 320" font-family="-apple-system,system-ui,Segoe UI,sans-serif">
+<style>
+.grid{stroke:#e5e7eb;stroke-width:1;}
+.tick{font-size:11px;fill:#6b7280;}
+.legend{font-size:12px;fill:#374151;font-weight:600;}
+</style>
+<rect width="880" height="320" fill="#fafafa" rx="8"/>
+<text x="440" y="20" text-anchor="middle" font-size="14" font-weight="700" fill="#111827">NuGet Downloads - 10 Day Trend</text>
+<text x="440" y="Hh-8" text-anchor="middle" font-size="11" fill="#6b7280">Cumulative (lifetime). HealthData leading at ~11/day.</text>
+<line x1="55" y1="208.8" x2="850" y2="208.8" class="grid"/><text x="47" y="212.8" text-anchor="end" class="tick">1600</text><line x1="55" y1="142.6" x2="850" y2="142.6" class="grid"/><text x="47" y="146.6" text-anchor="end" class="tick">1640</text><line x1="55" y1="76.5" x2="850" y2="76.5" class="grid"/><text x="47" y="80.5" text-anchor="end" class="tick">1680</text>
+<line x1="55" y1="270" x2="850" y2="270" stroke="#d1d5db" stroke-width="1"/>
+<line x1="55" y1="50" x2="55" y2="270" stroke="#d1d5db" stroke-width="1"/>
+<rect x="55" y="20" width="14" height="14" rx="2" fill="#2563eb"/>
+      <text x="75" y="31" class="legend">HealthData</text><rect x="255" y="20" width="14" height="14" rx="2" fill="#f59e0b"/>
+      <text x="275" y="31" class="legend">Quant</text><rect x="455" y="20" width="14" height="14" rx="2" fill="#10b981"/>
+      <text x="475" y="31" class="legend">LLSDA</text>
+<path d="M55.0,270.0 L143.3,270.0 L231.7,251.8 L320.0,251.8 L408.3,190.6 L496.7,188.9 L585.0,170.8 L673.3,134.4 L761.7,96.3 L850.0,50.0 L850.0,270.0 L55.0,270.0 Z" fill="rgba(37,99,235,0.05)"/>
+<path d="M55.0,2286.4 L143.3,2286.4 L231.7,2286.4 L320.0,2286.4 L408.3,2225.2 L496.7,2225.2 L585.0,2216.9 L673.3,2188.8 L761.7,2155.7 L850.0,2121.0" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M55.0,2562.6 L143.3,2562.6 L231.7,2559.3 L320.0,2559.3 L408.3,2559.3 L496.7,2557.7 L585.0,2549.4 L673.3,2541.1 L761.7,2536.2 L850.0,2524.6" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M55.0,1131.8 L143.3,1131.8 L231.7,1116.9 L320.0,1116.9 L408.3,1116.9 L496.7,1116.9 L585.0,1115.3 L673.3,1115.3 L761.7,1115.3 L850.0,1115.3" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="55.0" cy="2286.4" r="3.5" fill="#2563eb"/><circle cx="143.3" cy="2286.4" r="3.5" fill="#2563eb"/><circle cx="231.7" cy="2286.4" r="3.5" fill="#2563eb"/><circle cx="320.0" cy="2286.4" r="3.5" fill="#2563eb"/><circle cx="408.3" cy="2225.2" r="3.5" fill="#2563eb"/><circle cx="496.7" cy="2225.2" r="3.5" fill="#2563eb"/><circle cx="585.0" cy="2216.9" r="3.5" fill="#2563eb"/><circle cx="673.3" cy="2188.8" r="3.5" fill="#2563eb"/><circle cx="761.7" cy="2155.7" r="3.5" fill="#2563eb"/><circle cx="850.0" cy="2121.0" r="3.5" fill="#2563eb"/><circle cx="55.0" cy="2562.6" r="3.5" fill="#f59e0b"/><circle cx="143.3" cy="2562.6" r="3.5" fill="#f59e0b"/><circle cx="231.7" cy="2559.3" r="3.5" fill="#f59e0b"/><circle cx="320.0" cy="2559.3" r="3.5" fill="#f59e0b"/><circle cx="408.3" cy="2559.3" r="3.5" fill="#f59e0b"/><circle cx="496.7" cy="2557.7" r="3.5" fill="#f59e0b"/><circle cx="585.0" cy="2549.4" r="3.5" fill="#f59e0b"/><circle cx="673.3" cy="2541.1" r="3.5" fill="#f59e0b"/><circle cx="761.7" cy="2536.2" r="3.5" fill="#f59e0b"/><circle cx="850.0" cy="2524.6" r="3.5" fill="#f59e0b"/><circle cx="55.0" cy="1131.8" r="3.5" fill="#10b981"/><circle cx="143.3" cy="1131.8" r="3.5" fill="#10b981"/><circle cx="231.7" cy="1116.9" r="3.5" fill="#10b981"/><circle cx="320.0" cy="1116.9" r="3.5" fill="#10b981"/><circle cx="408.3" cy="1116.9" r="3.5" fill="#10b981"/><circle cx="496.7" cy="1116.9" r="3.5" fill="#10b981"/><circle cx="585.0" cy="1115.3" r="3.5" fill="#10b981"/><circle cx="673.3" cy="1115.3" r="3.5" fill="#10b981"/><circle cx="761.7" cy="1115.3" r="3.5" fill="#10b981"/><circle cx="850.0" cy="1115.3" r="3.5" fill="#10b981"/>
+<text x="55.0" y="292" text-anchor="middle" class="tick">08-24</text><text x="231.7" y="292" text-anchor="middle" class="tick">08-26</text><text x="408.3" y="292" text-anchor="middle" class="tick">08-28</text><text x="585.0" y="292" text-anchor="middle" class="tick">08-30</text><text x="761.7" y="292" text-anchor="middle" class="tick">09-01</text>
+</svg>
