@@ -20,7 +20,7 @@
 
 ### 3️⃣ ⚡ Lightning Science & Protection Technology
 **Research focus:** Lightning location data analysis, flash density computation, GIS visualization.
-- Developed [LLSDA](https://memoryfraction.github.io/LLSDA-Lightning-Location-System-Data-Analyzer/) — an open-source cross-platform library for lightning spatiotemporal analysis (published on NuGet).
+- Developed [LLSDA](https://memoryfraction.github.io/LLSDA-Lightning-Location-System-Data-Analyzer/) — an open-source library for lightning spatiotemporal analysis (.NET Framework 4.8 / .NET Standard 2.0, currently limited by the MeteoInfo dependency — not cross-platform .NET) (published on NuGet).
 
 ---
 
@@ -30,7 +30,7 @@
 |---------|-------------|---------|------|
 | [**HealthData-Interoperability-Csharp**](https://github.com/memoryfraction/HealthData-Interoperability-Csharp) | AI-driven FHIR R4/R5 interoperability engine (.NET 10, Healthcare IT) | MIT | [Pages](https://memoryfraction.github.io/HealthData-Interoperability-Csharp/) |
 | [**Quant.Infra.Net**](https://github.com/memoryfraction/Quant.Infra.Net) | Quantitative trading infrastructure in .NET | MIT | [Pages](https://memoryfraction.github.io/Quant.Infra.Net/) |
-| [**LLSDA**](https://github.com/memoryfraction/LLSDA-Lightning-Location-System-Data-Analyzer) [![GitHub stars](https://img.shields.io/github/stars/memoryfraction/LLSDA-Lightning-Location-System-Data-Analyzer)](https://github.com/memoryfraction/LLSDA-Lightning-Location-System-Data-Analyzer/stargazers) | Open-source lightning location data analysis library (.NET, cross-platform) — published on NuGet, cited in a TechRxiv preprint | GPLv3 | [Pages](https://memoryfraction.github.io/LLSDA-Lightning-Location-System-Data-Analyzer/) |
+| [**LLSDA**](https://github.com/memoryfraction/LLSDA-Lightning-Location-System-Data-Analyzer) [![GitHub stars](https://img.shields.io/github/stars/memoryfraction/LLSDA-Lightning-Location-System-Data-Analyzer)](https://github.com/memoryfraction/LLSDA-Lightning-Location-System-Data-Analyzer/stargazers) | Open-source lightning location data analysis library (.NET Framework 4.8 / .NET Standard 2.0; not cross-platform — limited by MeteoInfo) — published on NuGet, cited in a TechRxiv preprint | GPLv3 | [Pages](https://memoryfraction.github.io/LLSDA-Lightning-Location-System-Data-Analyzer/) |
 
 ## 🧪 Sample Projects
 
@@ -108,7 +108,7 @@ Working on FHIR / healthcare interoperability and think we could help each other
 
 ### 3️⃣ ⚡ 雷电科学与技术 (Lightning Science)
 **研究方向：** 闪电定位系统数据分析、雷击密度计算、GIS 可视化。
-- 开发了 [LLSDA](https://memoryfraction.github.io/LLSDA-Lightning-Location-System-Data-Analyzer/) —— 一个开源跨平台的闪电时空分析类库（已在 NuGet 发布）。
+- 开发了 [LLSDA](https://memoryfraction.github.io/LLSDA-Lightning-Location-System-Data-Analyzer/) —— 一个开源的闪电时空分析类库（.NET Framework 4.8 / .NET Standard 2.0；受 MeteoInfo 依赖限制，暂不支持跨平台 .NET，已在 NuGet 发布）。
 
 ---
 
@@ -117,7 +117,7 @@ Working on FHIR / healthcare interoperability and think we could help each other
 |---------|-------------|---------|------|
 | [**HealthData-Interoperability-Csharp**](https://github.com/memoryfraction/HealthData-Interoperability-Csharp) | AI驱动的 FHIR R4/R5 互操作性引擎 (.NET 10, 医疗IT) | MIT | [Pages](https://memoryfraction.github.io/HealthData-Interoperability-Csharp/) |
 | [**Quant.Infra.Net**](https://github.com/memoryfraction/Quant.Infra.Net) | .NET 量化交易基础设施 | MIT | [Pages](https://memoryfraction.github.io/Quant.Infra.Net/) |
-| [**LLSDA**](https://github.com/memoryfraction/LLSDA-Lightning-Location-System-Data-Analyzer) [![GitHub stars](https://img.shields.io/github/stars/memoryfraction/LLSDA-Lightning-Location-System-Data-Analyzer)](https://github.com/memoryfraction/LLSDA-Lightning-Location-System-Data-Analyzer/stargazers) | 开源闪电定位数据分析库 (.NET, 跨平台) —— 已发布 NuGet，被 TechRxiv 预印本引用 | GPLv3 | [Pages](https://memoryfraction.github.io/LLSDA-Lightning-Location-System-Data-Analyzer/) |
+| [**LLSDA**](https://github.com/memoryfraction/LLSDA-Lightning-Location-System-Data-Analyzer) [![GitHub stars](https://img.shields.io/github/stars/memoryfraction/LLSDA-Lightning-Location-System-Data-Analyzer)](https://github.com/memoryfraction/LLSDA-Lightning-Location-System-Data-Analyzer/stargazers) | 开源闪电定位数据分析库 (.NET Framework 4.8 / .NET Standard 2.0；受 MeteoInfo 依赖限制，暂不支持跨平台 .NET) —— 已发布 NuGet，被 TechRxiv 预印本引用 | GPLv3 | [Pages](https://memoryfraction.github.io/LLSDA-Lightning-Location-System-Data-Analyzer/) |
 
 ## 🧪 Sample 项目（在线示例）
 
