@@ -129,7 +129,7 @@ Working on FHIR / healthcare interoperability and think we could help each other
 ---
 
 ## 📦 NuGet 发布包
-| 软件包 | 下载量 | 版本 |
+| 软件包 | 下载总量 | 最新版本 |
 |---------|-----------|---------|
 | [**HealthData.Interop.Fhir**](https://www.nuget.org/packages/HealthData.Interop.Fhir) | ![Downloads](https://img.shields.io/nuget/dt/HealthData.Interop.Fhir) | ![Version](https://img.shields.io/nuget/v/HealthData.Interop.Fhir.svg) |
 | [**Quant.Infra.Net**](https://www.nuget.org/packages/Quant.Infra.Net) | ![Downloads](https://img.shields.io/nuget/dt/Quant.Infra.Net) | ![Version](https://img.shields.io/nuget/v/Quant.Infra.Net.svg) |
