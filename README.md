@@ -12,7 +12,7 @@
 
 ### 1️⃣ 🏥 AI Powered US Healthcare IT & Interoperability Professional
 **Research focus:** FHIR R4/R5 compliance, clinical data pipelines, semantic validation with AI.
-- Developed [HealthData-Interoperability-Csharp](https://memoryfraction.github.io/HealthData-Interoperability-Csharp/) — a Healthcare Interoperability Engine built on .NET 10 for the 21st Century Cures Act mandate.
+- Developed [HealthData-Interoperability-Csharp](https://memoryfraction.github.io/HealthData-Interoperability-Csharp/) — a Healthcare Interoperability Engine for the 21st Century Cures Act mandate (.NET 8 LTS library, .NET 10 samples).
 
 ### 2️⃣ 💹 Quantitative Trading & FinTech
 **Research focus:** Multi-source data ingestion, execution systems, real-time analytics.
@@ -28,7 +28,7 @@
 
 | Project | Description | License | Docs |
 |---------|-------------|---------|------|
-| [**HealthData-Interoperability-Csharp**](https://github.com/memoryfraction/HealthData-Interoperability-Csharp) | AI-driven FHIR R4/R5 interoperability engine (.NET 10, Healthcare IT) | MIT | [Pages](https://memoryfraction.github.io/HealthData-Interoperability-Csharp/) |
+| [**HealthData-Interoperability-Csharp**](https://github.com/memoryfraction/HealthData-Interoperability-Csharp) | AI-driven FHIR R4/R5 interoperability engine (.NET 8 LTS library / .NET 10 samples, Healthcare IT) | MIT | [Pages](https://memoryfraction.github.io/HealthData-Interoperability-Csharp/) |
 | [**Quant.Infra.Net**](https://github.com/memoryfraction/Quant.Infra.Net) | Quantitative trading infrastructure in .NET | MIT | [Pages](https://memoryfraction.github.io/Quant.Infra.Net/) |
 | [**LLSDA**](https://github.com/memoryfraction/LLSDA-Lightning-Location-System-Data-Analyzer) [![GitHub stars](https://img.shields.io/github/stars/memoryfraction/LLSDA-Lightning-Location-System-Data-Analyzer)](https://github.com/memoryfraction/LLSDA-Lightning-Location-System-Data-Analyzer/stargazers) | Open-source lightning location data analysis library (.NET Framework 4.8 / .NET Standard 2.0; not cross-platform — limited by MeteoInfo) — published on NuGet, cited in a TechRxiv preprint | GPLv3 | [Pages](https://memoryfraction.github.io/LLSDA-Lightning-Location-System-Data-Analyzer/) |
 
@@ -45,17 +45,22 @@ Live demos of the healthcare interoperability stack:
 
 ## 📦 NuGet Packages
 
-| Package | Downloads | Version |
-|---------|-----------|---------|
-| [**HealthData.Interop.Fhir**](https://www.nuget.org/packages/HealthData.Interop.Fhir) | ![Downloads](https://img.shields.io/nuget/dt/HealthData.Interop.Fhir) | ![Version](https://img.shields.io/nuget/v/HealthData.Interop.Fhir.svg) |
-| [**Quant.Infra.Net**](https://www.nuget.org/packages/Quant.Infra.Net) | ![Downloads](https://img.shields.io/nuget/dt/Quant.Infra.Net) | ![Version](https://img.shields.io/nuget/v/Quant.Infra.Net.svg) |
-| [**LightningLocationSystemDataAnalyzer-LLDSA**](https://www.nuget.org/packages/LightningLocationSystemDataAnalyzer-LLDSA/) | ![Downloads](https://img.shields.io/nuget/dt/LightningLocationSystemDataAnalyzer-LLDSA) | ![Version](https://img.shields.io/nuget/v/LightningLocationSystemDataAnalyzer-LLDSA.svg) |
+**HealthData.Interop** now ships as a package family. `HealthData.Interop.Fhir` is the meta-package — installing it still pulls in the whole toolkit, so nothing changes for existing users. The components are published separately for projects that only need part of the stack.
+
+| Package | Role | Downloads | Version |
+|---------|------|-----------|---------|
+| [**HealthData.Interop.Fhir**](https://www.nuget.org/packages/HealthData.Interop.Fhir) | 📦 **Meta-package** — FHIR R4 client, US Core validation, SMART on FHIR, CSV→FHIR ETL, HIPAA security examples, drift detection | ![Downloads](https://img.shields.io/nuget/dt/HealthData.Interop.Fhir) | ![Version](https://img.shields.io/nuget/v/HealthData.Interop.Fhir.svg) |
+| [**HealthData.Interop.Abstractions**](https://www.nuget.org/packages/HealthData.Interop.Abstractions) | Core abstractions — `IApplicationLogger`, `PhiMasker`, `Guard`; zero third-party dependencies | ![Downloads](https://img.shields.io/nuget/dt/HealthData.Interop.Abstractions) | ![Version](https://img.shields.io/nuget/v/HealthData.Interop.Abstractions.svg) |
+| [**HealthData.Interop.Logging.Extensions**](https://www.nuget.org/packages/HealthData.Interop.Logging.Extensions) | Bridge to `Microsoft.Extensions.Logging` (Serilog / NLog / any `ILogger`) with automatic PHI masking | ![Downloads](https://img.shields.io/nuget/dt/HealthData.Interop.Logging.Extensions) | ![Version](https://img.shields.io/nuget/v/HealthData.Interop.Logging.Extensions.svg) |
+| [**HealthData.Interop.Logging.Serilog**](https://www.nuget.org/packages/HealthData.Interop.Logging.Serilog) | Serilog-backed `IApplicationLogger` for HIPAA audit trails (console + file sinks), PHI-masked | ![Downloads](https://img.shields.io/nuget/dt/HealthData.Interop.Logging.Serilog) | ![Version](https://img.shields.io/nuget/v/HealthData.Interop.Logging.Serilog.svg) |
+| [**Quant.Infra.Net**](https://www.nuget.org/packages/Quant.Infra.Net) | Quantitative trading infrastructure (Binance / IB / Schwab unified API, portfolio analytics) | ![Downloads](https://img.shields.io/nuget/dt/Quant.Infra.Net) | ![Version](https://img.shields.io/nuget/v/Quant.Infra.Net.svg) |
+| [**LightningLocationSystemDataAnalyzer-LLDSA**](https://www.nuget.org/packages/LightningLocationSystemDataAnalyzer-LLDSA/) | Lightning location data analysis, flash density computation, GIS visualization | ![Downloads](https://img.shields.io/nuget/dt/LightningLocationSystemDataAnalyzer-LLDSA) | ![Version](https://img.shields.io/nuget/v/LightningLocationSystemDataAnalyzer-LLDSA.svg) |
 
 <p align="center">
   <img src="https://memoryfraction.github.io/charts/nuget-downloads.png" alt="NuGet downloads chart (auto-updated daily)" width="880">
 </p>
 
-<p align="center"><sub>📈 <a href="https://memoryfraction.github.io/">Interactive dashboard · 动态图表</a> — day / week / month / year, live totals, per-version breakdown (year view stacked by version)<br>🔄 <b>Updated once daily at 11:30 UTC (07:30 US Eastern), typically live by ~12:00 UTC</b> · the "updated" date = last snapshot · counts are lifetime-cumulative (NuGet has no official time series), so consecutive days may look identical</sub></p>
+<p align="center"><sub>📈 <a href="https://memoryfraction.github.io/">Interactive dashboard · 动态图表</a> — day / week / month / year, live totals, per-version breakdown (year view stacked by version)<br>📦 The chart tracks the three headline packages (<code>HealthData.Interop.Fhir</code>, <code>Quant.Infra.Net</code>, <code>LLDSA</code>) — the newly split component packages are listed above with live badges<br>🔄 <b>Updated once daily at 11:30 UTC (07:30 US Eastern), typically live by ~12:00 UTC</b> · the "updated" date = last snapshot · counts are lifetime-cumulative (NuGet has no official time series), so consecutive days may look identical</sub></p>
 
 ---
 
@@ -71,6 +76,14 @@ Live demos of the healthcare interoperability stack:
 - 📅 **Book a Meeting**: [Calendly](https://calendly.com/rex-fan18/30min)
 - 🔗 **LinkedIn**: [linkedin.com/in/rongfan1031](https://www.linkedin.com/in/rongfan1031/)
 - 📝 **Medium**: [medium.com/@rex.fan18](https://medium.com/@rex.fan18)
+
+---
+
+## 🙌 Support this work
+If this work is helpful to you, feel free to send a small gift — it helps support my work and keep the projects maintained.
+- **GitHub Sponsors**: [github.com/sponsors/memoryfraction](https://github.com/sponsors/memoryfraction)
+- **Venmo** (Rong Fan): [venmo.com/code?user_id=1873693978394624136](https://venmo.com/code?user_id=1873693978394624136)
+- **PayPal** (Rong Fan): [paypal.com/qrcodes/p2pqrc/EN4HJNCRZC5ZS](https://www.paypal.com/qrcodes/p2pqrc/EN4HJNCRZC5ZS)
 
 ---
 
@@ -100,7 +113,7 @@ Working on FHIR / healthcare interoperability and think we could help each other
 
 ### 1️⃣ 🏥 美国医疗信息技术 (Healthcare IT)
 **研究方向：** FHIR R4/R5 互操作性、临床数据 ETL 流水线、基于 AI 的语义验证。
-- 开发了 [HealthData-Interoperability-Csharp](https://memoryfraction.github.io/HealthData-Interoperability-Csharp/) —— 基于 .NET 10 构建的生产级医疗互操作性引擎，实现了符合《21世纪治愈法案》标准的 HL7 FHIR R4/R5 合规性。
+- 开发了 [HealthData-Interoperability-Csharp](https://memoryfraction.github.io/HealthData-Interoperability-Csharp/) —— 生产级医疗互操作性引擎（类库基于 .NET 8 LTS，示例项目基于 .NET 10），实现了符合《21世纪治愈法案》标准的 HL7 FHIR R4/R5 合规性。
 
 ### 2️⃣ 💹 量化交易与金融科技
 **研究方向：** 多源市场数据接入、券商执行系统、实时数据分析。
@@ -115,7 +128,7 @@ Working on FHIR / healthcare interoperability and think we could help each other
 ## 🚀 核心项目
 | 项目 | 简介 | 许可证 | 文档 |
 |---------|-------------|---------|------|
-| [**HealthData-Interoperability-Csharp**](https://github.com/memoryfraction/HealthData-Interoperability-Csharp) | AI驱动的 FHIR R4/R5 互操作性引擎 (.NET 10, 医疗IT) | MIT | [Pages](https://memoryfraction.github.io/HealthData-Interoperability-Csharp/) |
+| [**HealthData-Interoperability-Csharp**](https://github.com/memoryfraction/HealthData-Interoperability-Csharp) | AI驱动的 FHIR R4/R5 互操作性引擎（类库 .NET 8 LTS / 示例 .NET 10，医疗IT） | MIT | [Pages](https://memoryfraction.github.io/HealthData-Interoperability-Csharp/) |
 | [**Quant.Infra.Net**](https://github.com/memoryfraction/Quant.Infra.Net) | .NET 量化交易基础设施 | MIT | [Pages](https://memoryfraction.github.io/Quant.Infra.Net/) |
 | [**LLSDA**](https://github.com/memoryfraction/LLSDA-Lightning-Location-System-Data-Analyzer) [![GitHub stars](https://img.shields.io/github/stars/memoryfraction/LLSDA-Lightning-Location-System-Data-Analyzer)](https://github.com/memoryfraction/LLSDA-Lightning-Location-System-Data-Analyzer/stargazers) | 开源闪电定位数据分析库 (.NET Framework 4.8 / .NET Standard 2.0；受 MeteoInfo 依赖限制，暂不支持跨平台 .NET) —— 已发布 NuGet，被 TechRxiv 预印本引用 | GPLv3 | [Pages](https://memoryfraction.github.io/LLSDA-Lightning-Location-System-Data-Analyzer/) |
 
@@ -129,17 +142,22 @@ Working on FHIR / healthcare interoperability and think we could help each other
 ---
 
 ## 📦 NuGet 发布包
-| 软件包 | 下载总量 | 最新版本 |
-|---------|-----------|---------|
-| [**HealthData.Interop.Fhir**](https://www.nuget.org/packages/HealthData.Interop.Fhir) | ![Downloads](https://img.shields.io/nuget/dt/HealthData.Interop.Fhir) | ![Version](https://img.shields.io/nuget/v/HealthData.Interop.Fhir.svg) |
-| [**Quant.Infra.Net**](https://www.nuget.org/packages/Quant.Infra.Net) | ![Downloads](https://img.shields.io/nuget/dt/Quant.Infra.Net) | ![Version](https://img.shields.io/nuget/v/Quant.Infra.Net.svg) |
-| [**LightningLocationSystemDataAnalyzer-LLDSA**](https://www.nuget.org/packages/LightningLocationSystemDataAnalyzer-LLDSA/) | ![Downloads](https://img.shields.io/nuget/dt/LightningLocationSystemDataAnalyzer-LLDSA) | ![Version](https://img.shields.io/nuget/v/LightningLocationSystemDataAnalyzer-LLDSA.svg) |
+**HealthData.Interop** 已拆分为一组软件包。`HealthData.Interop.Fhir` 是**聚合包（meta-package）**，安装它仍会自动引入全部组件，现有用户的使用方式不变；各组件独立发布，方便只需要其中一部分能力的项目按需引用。
+
+| 软件包 | 作用 | 下载总量 | 最新版本 |
+|---------|------|-----------|---------|
+| [**HealthData.Interop.Fhir**](https://www.nuget.org/packages/HealthData.Interop.Fhir) | 📦 **聚合包** —— FHIR R4 客户端、US Core 校验、SMART on FHIR、CSV→FHIR ETL、HIPAA 安全示例、数据漂移检测 | ![Downloads](https://img.shields.io/nuget/dt/HealthData.Interop.Fhir) | ![Version](https://img.shields.io/nuget/v/HealthData.Interop.Fhir.svg) |
+| [**HealthData.Interop.Abstractions**](https://www.nuget.org/packages/HealthData.Interop.Abstractions) | 核心抽象层 —— `IApplicationLogger`、`PhiMasker`、`Guard`；零第三方依赖 | ![Downloads](https://img.shields.io/nuget/dt/HealthData.Interop.Abstractions) | ![Version](https://img.shields.io/nuget/v/HealthData.Interop.Abstractions.svg) |
+| [**HealthData.Interop.Logging.Extensions**](https://www.nuget.org/packages/HealthData.Interop.Logging.Extensions) | 对接 `Microsoft.Extensions.Logging` 的桥接层（Serilog / NLog 等任意 `ILogger`），自动进行 PHI 脱敏 | ![Downloads](https://img.shields.io/nuget/dt/HealthData.Interop.Logging.Extensions) | ![Version](https://img.shields.io/nuget/v/HealthData.Interop.Logging.Extensions.svg) |
+| [**HealthData.Interop.Logging.Serilog**](https://www.nuget.org/packages/HealthData.Interop.Logging.Serilog) | 基于 Serilog 的 `IApplicationLogger` 实现，用于 HIPAA 审计日志（控制台 + 文件），内置 PHI 脱敏 | ![Downloads](https://img.shields.io/nuget/dt/HealthData.Interop.Logging.Serilog) | ![Version](https://img.shields.io/nuget/v/HealthData.Interop.Logging.Serilog.svg) |
+| [**Quant.Infra.Net**](https://www.nuget.org/packages/Quant.Infra.Net) | .NET 量化交易基础设施（Binance/IB/嘉信统一 API、投资组合分析） | ![Downloads](https://img.shields.io/nuget/dt/Quant.Infra.Net) | ![Version](https://img.shields.io/nuget/v/Quant.Infra.Net.svg) |
+| [**LightningLocationSystemDataAnalyzer-LLDSA**](https://www.nuget.org/packages/LightningLocationSystemDataAnalyzer-LLDSA/) | 闪电定位数据分析、雷击密度计算、GIS 可视化 | ![Downloads](https://img.shields.io/nuget/dt/LightningLocationSystemDataAnalyzer-LLDSA) | ![Version](https://img.shields.io/nuget/v/LightningLocationSystemDataAnalyzer-LLDSA.svg) |
 
 <p align="center">
   <img src="https://memoryfraction.github.io/charts/nuget-downloads.png" alt="NuGet 下载量图表（每日自动更新）" width="880">
 </p>
 
-<p align="center"><sub>📈 <a href="https://memoryfraction.github.io/">交互式动态图表</a> — 天 / 周 / 月 / 年粒度 + 实时累计下载量 + 按版本分布（年份视图柱内按版本叠加）<br>🔄 <b>更新时间：每天 1 次，11:30 UTC（美东 07:30）自动快照，约 12:00 UTC 前后生效</b> · 图中 "updated" 日期 = 最近一次快照日期 · 下载量为累计值（NuGet 无官方时间序列），相邻两天数值可能相同</sub></p>
+<p align="center"><sub>📈 <a href="https://memoryfraction.github.io/">交互式动态图表</a> — 天 / 周 / 月 / 年粒度 + 实时累计下载量 + 按版本分布（年份视图柱内按版本叠加）<br>📦 图表仅统计三个主包（<code>HealthData.Interop.Fhir</code>、<code>Quant.Infra.Net</code>、<code>LLDSA</code>）—— 新拆分出的组件包见上表实时徽章<br>🔄 <b>更新时间：每天 1 次，11:30 UTC（美东 07:30）自动快照，约 12:00 UTC 前后生效</b> · 图中 "updated" 日期 = 最近一次快照日期 · 下载量为累计值（NuGet 无官方时间序列），相邻两天数值可能相同</sub></p>
 
 ---
 
@@ -155,6 +173,14 @@ Working on FHIR / healthcare interoperability and think we could help each other
 - 📅 **预约会议**: [Calendly](https://calendly.com/rex-fan18/30min)
 - 🔗 **LinkedIn**: [linkedin.com/in/rongfan1031](https://www.linkedin.com/in/rongfan1031/)
 - 📝 **Medium 博客**: [medium.com/@rex.fan18](https://medium.com/@rex.fan18)
+
+---
+
+## 🙌 支持我的工作 / 打赏
+如果这些项目对您有帮助,欢迎小额打赏,这能帮助我持续维护这些项目。
+- **GitHub Sponsors**: [github.com/sponsors/memoryfraction](https://github.com/sponsors/memoryfraction)
+- **Venmo** (Rong Fan): [venmo.com/code?user_id=1873693978394624136](https://venmo.com/code?user_id=1873693978394624136)
+- **PayPal** (Rong Fan): [paypal.com/qrcodes/p2pqrc/EN4HJNCRZC5ZS](https://www.paypal.com/qrcodes/p2pqrc/EN4HJNCRZC5ZS)
 
 ---
 
