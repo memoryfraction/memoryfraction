@@ -60,7 +60,7 @@ Live demos of the healthcare interoperability stack:
   <img src="https://memoryfraction.github.io/charts/nuget-downloads.png" alt="NuGet downloads chart (auto-updated daily)" width="880">
 </p>
 
-<p align="center"><sub>📈 <a href="https://memoryfraction.github.io/">Interactive dashboard · 动态图表</a> — day / week / month / year, live totals, per-version breakdown (year view stacked by version)<br>📦 The chart tracks the three headline packages (<code>HealthData.Interop.Fhir</code>, <code>Quant.Infra.Net</code>, <code>LLDSA</code>) — the newly split component packages are listed above with live badges<br>🔄 <b>Updated once daily at 11:30 UTC (07:30 US Eastern), typically live by ~12:00 UTC</b> · the "updated" date = last snapshot · counts are lifetime-cumulative (NuGet has no official time series), so consecutive days may look identical</sub></p>
+<p align="center"><sub>📈 <a href="https://memoryfraction.github.io/">Interactive dashboard · 动态图表</a> — day / week / month / year, live totals, per-version breakdown (year view stacked by version)<br>📦 Tracks all six packages above; the three split-out <code>HealthData.Interop.*</code> components start from their first snapshot on 2026-09-22<br>🔄 <b>Updated once daily at 11:30 UTC (07:30 US Eastern), typically live by ~12:00 UTC</b> · the "updated" date = last snapshot · counts are lifetime-cumulative (NuGet has no official time series), so consecutive days may look identical</sub></p>
 
 ---
 
@@ -157,7 +157,7 @@ Working on FHIR / healthcare interoperability and think we could help each other
   <img src="https://memoryfraction.github.io/charts/nuget-downloads.png" alt="NuGet 下载量图表（每日自动更新）" width="880">
 </p>
 
-<p align="center"><sub>📈 <a href="https://memoryfraction.github.io/">交互式动态图表</a> — 天 / 周 / 月 / 年粒度 + 实时累计下载量 + 按版本分布（年份视图柱内按版本叠加）<br>📦 图表仅统计三个主包（<code>HealthData.Interop.Fhir</code>、<code>Quant.Infra.Net</code>、<code>LLDSA</code>）—— 新拆分出的组件包见上表实时徽章<br>🔄 <b>更新时间：每天 1 次，11:30 UTC（美东 07:30）自动快照，约 12:00 UTC 前后生效</b> · 图中 "updated" 日期 = 最近一次快照日期 · 下载量为累计值（NuGet 无官方时间序列），相邻两天数值可能相同</sub></p>
+<p align="center"><sub>📈 <a href="https://memoryfraction.github.io/">交互式动态图表</a> — 天 / 周 / 月 / 年粒度 + 实时累计下载量 + 按版本分布（年份视图柱内按版本叠加）<br>📦 图表统计上表全部 6 个软件包；新拆分出的 3 个 <code>HealthData.Interop.*</code> 组件包从 2026-09-22 首次快照起开始统计<br>🔄 <b>更新时间：每天 1 次，11:30 UTC（美东 07:30）自动快照，约 12:00 UTC 前后生效</b> · 图中 "updated" 日期 = 最近一次快照日期 · 下载量为累计值（NuGet 无官方时间序列），相邻两天数值可能相同</sub></p>
 
 ---
 
