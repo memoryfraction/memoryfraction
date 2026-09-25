@@ -62,6 +62,12 @@ Live demos of the healthcare interoperability stack:
 
 <p align="center"><sub>📈 <a href="https://memoryfraction.github.io/">Interactive dashboard · 动态图表</a> — day / week / month / year, live totals, per-version breakdown (year view stacked by version)<br>📦 Tracks all six packages above; the three split-out <code>HealthData.Interop.*</code> components start from their first snapshot on 2026-09-22<br>🔄 <b>Updated once daily at 11:30 UTC (07:30 US Eastern), typically live by ~12:00 UTC</b> · the "updated" date = last snapshot · counts are lifetime-cumulative (NuGet has no official time series), so consecutive days may look identical</sub></p>
 
+<p align="center">
+  <img src="https://memoryfraction.github.io/charts/nuget-organic.png" alt="NuGet organic downloads chart (auto-updated daily)" width="880">
+</p>
+
+<p align="center"><sub>🌱 <b>Organic downloads</b> — raw counts are inflated by automation: mirrors and scanners fetch every new version within days of release and periodically sweep old versions. This chart removes both (a version's first 4 days, and downloads to superseded versions) and keeps what lands on the current version. It's a heuristic and still can't tell a person from a CI restore.</sub></p>
+
 ---
 
 ## 🎓 Academic Profiles
@@ -158,6 +164,12 @@ Working on FHIR / healthcare interoperability and think we could help each other
 </p>
 
 <p align="center"><sub>📈 <a href="https://memoryfraction.github.io/">交互式动态图表</a> — 天 / 周 / 月 / 年粒度 + 实时累计下载量 + 按版本分布（年份视图柱内按版本叠加）<br>📦 图表统计上表全部 6 个软件包；新拆分出的 3 个 <code>HealthData.Interop.*</code> 组件包从 2026-09-22 首次快照起开始统计<br>🔄 <b>更新时间：每天 1 次，11:30 UTC（美东 07:30）自动快照，约 12:00 UTC 前后生效</b> · 图中 "updated" 日期 = 最近一次快照日期 · 下载量为累计值（NuGet 无官方时间序列），相邻两天数值可能相同</sub></p>
+
+<p align="center">
+  <img src="https://memoryfraction.github.io/charts/nuget-organic.png" alt="NuGet 自然下载图表（每日自动更新）" width="880">
+</p>
+
+<p align="center"><sub>🌱 <b>自然下载</b> —— 原始下载量被自动化流量抬高：镜像和扫描器会在每个新版本发布后几天内抓取一遍，也会定期扫描旧版本。本图去掉这两部分（版本发布后 4 天内的下载、对已被取代版本的下载），只保留落在当前最新版本上的下载。属于启发式估计，仍无法区分真人与 CI 还原。</sub></p>
 
 ---
 
