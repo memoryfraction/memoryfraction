@@ -2,6 +2,7 @@
   <h1>👋 Hi, I'm Rex Fan</h1>
   <p><strong>I help US healthcare teams ship FHIR-compliant, audit-ready interoperability — built on .NET.</strong></p>
   <p>🏥 AI Powered Healthcare IT / FHIR Interoperability &nbsp;·&nbsp; also building in 💹 Quant Dev &amp; ⚡ Lightning Science</p>
+  <p>✍️ Field notes: <a href="https://northpine.dev/?utm_source=github&amp;utm_medium=profile&amp;utm_campaign=profile"><strong>northpine.dev</strong> — Practical FHIR for .NET engineers</a></p>
 </div>
 <div align="center">
   <img src="https://api.visitorbadge.io/api/visitors?path=memoryfraction&label=Profile%20Visits&countColor=%23263759" alt="Profile Visits Badge" />
